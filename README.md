@@ -273,4 +273,26 @@ Metallization
 ![image](https://user-images.githubusercontent.com/121994033/211606982-57936abe-4897-4216-b96f-ffd1a1982042.png)
 
  </details>
+</details>
+
+ <Details>
+ <summary>Lab</summary>
+ 
+ 1. 
+ ![image](https://user-images.githubusercontent.com/121994033/211699505-091d8fd1-a522-4796-919f-fae2979e742b.png)  
+ 
+ 2.  
+ ![image](https://user-images.githubusercontent.com/121994033/211699558-c9130263-01b1-4fca-bf34-0a64e1cc90aa.png)
+
+ 3.
+ ![image](https://user-images.githubusercontent.com/121994033/211699704-a978982e-103c-4722-b065-37a2e9571ebf.png)
+
+ 4.  
+ ![image](https://user-images.githubusercontent.com/121994033/211699797-a76b0057-97a5-418d-a351-1a90c14b52bf.png)
+
+ 5.  
+ ![image](https://user-images.githubusercontent.com/121994033/211699816-49bc44d3-4181-4cce-891c-b70e2a743fb5.png) 
+ 
+ 6. 
+ ![image](https://user-images.githubusercontent.com/121994033/211700480-8dd103af-0c9c-4e77-838f-85688fc2224e.png)
 
