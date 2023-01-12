@@ -408,3 +408,65 @@ Metallization
    * Reduced small signal intrinsic gain
    * Increased nonlinearity
    * Increased noise and poorer matching
+</details>
+
+ <details>
+ <summary>Lab</summary>
+  
+## Lab ##
+  
+1. List the five basic MOS fabrication processing steps and give the purpose or function
+of each step.
+Oxidation
+Oxidation is the process by which a layer of silicon dioxide (SiO2) is formed on the surface of the silicon wafer. The oxide grows both into as well as on the silicon surface. This oxide is used to provide insulating and passivation layers.
+Diffusion in semiconductor material is the movement of impurity atoms at the surface of the material into the bulk of the material at temperatures in the range of 800–1400°C. The main aim of the Diffusion Process in IC Fabrication is to change the Conductivity of silicon substrate over a depth.
+Ion implantation is the process by which ions of a particular dopant (impurity) are accelerated by an electric field to a high velocity and physically lodge within the semiconductor material. Ion implantation doping method used in semiconductors that introduces impurities into a semiconductor wafer, enabling conductivity.
+Deposition is layering of additional material on the wafer surface. These layers may be applied at various stages during the manufacturing process in order to form a mask, to act as a new layer for further junction formation, or to form an insulating layer between two or more conductive layers.
+Etching removes layers of SiO2, metals, and polysilicon, according to the desired patterns delineated by the resist. The two major methods of etching are wet chemical etching or dry chemical etching.
+2. What is the difference between positive and negative photoresist and how is photoresist
+used?
+Positive photoresists undergo weakening when exposed to irradiation, whereas negative photoresists are strengthened. Positive photoresist is used to create a mask where patterns exist (where the photomask is opaque to UV light). Negative photoresist creates a mask where patterns do not exist (where the photomask is transparent to UV light).
+3. Sketch the approximate cross sectional view of a NMOS transistor in a p-substrate.
+Identify each region and identify the connections at the top surface of the integrated
+circuit for the source, drain, gate and bulk/substrate.
+ ![image](https://user-images.githubusercontent.com/121994033/212135520-fc9a087e-02ef-4531-8845-317a9ad498ff.png)
+
+4. Consider a mask that is opaque everywhere except for a transparent circle in the center.
+Metal is deposited on a substrate followed by an application of negative photoresist
+which is patterned with the mask described. After exposure, developing, and
+subsequent etching, what will remain?
+The remain is a circle in the center
+5. What is the difference between submicron, deep submicron and ultra-deep submicron
+process?
+Submicron technology typically has a channel length below 1000nm
+DSM technology typically has a minimum channel length between 350nm to 130nm,
+UDSM technology typically has a channel length below 100nm
+6. What are the advantages of ultra-deep submicron process over deep submicron process.
+Improved Ion/Ioff
+Reduced gate capacitance
+Higher drive current capability
+Reduced junction capacitance per transconductance
+Higher cutoff frequency
+More speed
+7. What is the difference between LOCOS and STI process?
+The STI process starts in the same way as the LOCOS process. A shallow trench is etched into the silicon substrate in STI. After underetching of the oxide pad, also a thermal oxide in the trench is grown, the so-called liner oxide. But unlike with LOCOS, the thermal oxidation process is stopped after the formation of a thin oxide layer, and the rest of the trench is filled with a deposited oxide
+8. Why for body connection a heavily doped n+ or p+ is used?
+A heavily doped N+ or P+ diffusion is made for the metallic contact. This creates a conductive junction between the metal and the semiconductor, thus giving a good electrical contact to the bulk.
+9. What is use of silicide and poolside?
+They function as interconnect between N+ or P+ diffusion to the metal later
+10. Which process steps used for control threshold voltage and punch-through effect?
+Oxidation and Diffusion
+11. Draw a top view, front view and 3D view of a CMOS inverter and annotate the length
+and width of both PMOS and NMOS transistor.
+ ![image](https://user-images.githubusercontent.com/121994033/212135567-a7b86633-5a3c-4c27-9406-7d7d03067813.png)
+
+12. Why sidewall spacer are used in DSM technology?
+To insulate the drain and source metal contacts from the gate of the transistor.
+13. What are the advantages of Deep N-well technology over n-well technology?
+The deep N well has the effect of decreasing the noise coupling through it to the substrate and giving the advantage of fully isolated NMOS devices while in n-well, capacitive coupling of noise from the well to the substrate means more noise reaches the supply.
+14. What is passivation layer?
+Passivation layers is a layer normally used protect the active semiconductor surface from the surrounding environment.
+15. What is Bird’s beak in LOCOS process and what is the impact on the transistor
+performance?
+A bird's beak effect is commonplace in LOCOS. As the oxide grows, the nitride mask, which is meant to block the oxide from growing everywhere, is slightly bent due to stress caused by the oxide pushing the nitride as it grows. The encroachment of field oxide in the active region reduces the area available to form a transistor and therefore it limits device scaling and device density in VLSI cuts which will limit the device performance
+</details>
