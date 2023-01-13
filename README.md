@@ -96,9 +96,9 @@
  <summary>Lab</summary>
  
  ### Lab 
- **RC Assignment**
+ **RC Assignment**  
  ![image](https://user-images.githubusercontent.com/121994033/212216232-df6c4662-7c1c-49a0-ae07-ba81509ce382.png)
-
+  </details>
 
 ## Day 2
 ### Topic - Details of IC Manufacturing Process
