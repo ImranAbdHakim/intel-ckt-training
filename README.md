@@ -524,3 +524,139 @@ Passivation layers is a layer normally used protect the active semiconductor sur
 A bird's beak effect is commonplace in LOCOS. As the oxide grows, the nitride mask, which is meant to block the oxide from growing everywhere, is slightly bent due to stress caused by the oxide pushing the nitride as it grows. The encroachment of field oxide in the active region reduces the area available to form a transistor and therefore it limits device scaling and device density in VLSI cuts which will limit the device performance.
  </details> 
 </details>
+
+## Day 4
+### Topic - Metal-Oxide-Semiconductor Structure
+<details>
+ <summary>Theory</summary>
+ 
+### Theory ###
+
+ **Metal-Oxide-Semiconductor (MOS) Device Structure**  
+ MOS structure - capacitance will change with voltage
+ MOM structure - capacitance is constant
+ ![image](https://user-images.githubusercontent.com/121994033/212618575-c310661a-8f0f-4429-b417-feffea0be902.png)
+ ![image](https://user-images.githubusercontent.com/121994033/212618640-d0dd85a2-9bf4-42ba-b0af-9fb5ade12cc6.png)
+Fabrication:  
+* Oxidation: process to create SiO2 on top of Silicon.
+* Metallization: process to deposit poly-silicon on top of SiO2
+Device Structure:  
+* Gate and substrate are different material so there is a contact potential between them. This expressed as metal to semiconductor work function (ϕms)
+* Interface: between SiO2 and Silicon
+
+ **Ideal MOS Junction or Capacitor**  
+ * No charge in the device if V= 0
+ * Substrate is uniformly doped
+ 
+   * Metal-to-semiconductor work function = 0
+   * Interface trapped charge = 0
+   * Oxide trapped charge = 0
+   * Fixed charge at the interface = 0
+   * Mobile charge in the oxide = 0
+   
+   **Case1: Accumulation Mode of Operation**
+    * Accumulation Mode (V < 0):
+      * Pile of majority carrier at the interface
+      * Charge at the surface directly proportional to voltage  
+        ![image](https://user-images.githubusercontent.com/121994033/212622907-40b5b8f5-f0a5-40f5-bc19-bc4671a7af5c.png)
+       
+    **Case2: Depletion Mode of Operation**
+    * Depletion Mode (0 < V < VT):
+      * The semiconductor surface starts to deplete and the type of charge at the surface is –ve (due to acceptor ions) and gradually increase with the increase of voltage.  
+      * The voltage at which the surface carrier concentration is exactly equal to bulk carrier concentration, is called weak inversion voltage and form this point the weak inversion started
+      * Charge at the surface directly proportional to voltage
+      * The voltage at which the surface concentration exactly equal to the bulk concentration, that is called threshold voltage
+      * This is called inversion point and at this point depletion mode ends and strong inversion started.
+      ![image](https://user-images.githubusercontent.com/121994033/212623238-88616000-a44b-42c9-b250-70356b721e67.png)  
+
+    **Case3: Strong Inversion Mode of Operation**
+    * Strong Inversion Mode (V ≥ VT):
+      * At threshold voltage a channel form at the surface of the semiconductor due to inversion charges.
+      * Before threshold voltage the charge comes from negatively charged ionized acceptors.
+      * After threshold voltage, the more charge comes from the electrons rather than depleting the holes.
+      * The extra negative charge required for the semiconductor is comes from the mobile electrons which are very close to the surface.
+      ![image](https://user-images.githubusercontent.com/121994033/212623758-eb930dc1-09f9-4dd9-9511-a7bbe87abe68.png)
+     
+    **Summary of the MOS Operation Modes**
+     Depletion Mode (V > 0):
+      * Flat band voltage is 0 for ideal MOS structure
+      * Flat band means flatness of conduction and valence band edges at semiconductor surface
+      ![image](https://user-images.githubusercontent.com/121994033/212627683-5a411c0e-e1cb-45e1-add9-37a34a88d7ca.png)
+
+    **Q-V Characteristics of MOS Structure**
+    ![image](https://user-images.githubusercontent.com/121994033/212628086-e5391f10-b4f4-413b-aa1e-5751c654ff3f.png)
+
+    **C-V Characteristics of MOS Structure**
+    ![image](https://user-images.githubusercontent.com/121994033/212628208-1e7f8445-a13c-42d1-825c-549a7d1c323f.png)   
+
+    **Non Ideal MOS Structure**
+    Effect of fixed charge Qf
+    * To cerate a zero charge on silicon a negative voltage is required to give at gate terminal.
+    * By applying a negative volute at gate the surface charge at silicon will be zero.
+    * Zero charge in the semiconductor corresponds to flat-band condition of a MOS junction
+    ![image](https://user-images.githubusercontent.com/121994033/212628647-f9944feb-b9e2-4693-8a9a-d7d43ca5052a.png)
+    ![image](https://user-images.githubusercontent.com/121994033/212628614-9537f8c8-6320-4935-8fa7-76391e8a4fcb.png)
+    
+    Effect of work metal-semiconductor work function difference ϕms
+    * Electrons are always moves from higher energy level to lower energy level.
+    * Electrons are transferred through wire. 
+    * To remove the electrons from semiconductor surface we have to provide a –ve voltage to the gate.
+    ![image](https://user-images.githubusercontent.com/121994033/212628929-535e5753-d822-40fe-a14d-ba16cf9c2f38.png)
+    ![image](https://user-images.githubusercontent.com/121994033/212628905-7194733b-47a2-4119-8824-756b442d9adc.png)
+
+ </details>
+ 
+<details>
+ <summary>Lab</summary>
+ 
+### Lab ###
+
+
+1. What are the main differences between ideal and real MOS structure? 
+
+ - Effect of Oxide fixed charge QF and metal to semiconductor work function difference
+   * There are some negative charges deposited at the surface  of the semiconductor. This negative charge at teh interface causes a band bending at the semiconductor interface without giving any voltage to the MOS structure
+   * A negative voltage need to be applied at the gate terminal of the MOS structure to remove the negative charges from the surface of the semiconductor.
+ 
+2. What are the different modes of operation in a MOS junction? 
+
+* Accumulation
+* Depletion
+* Strong Inversion
+
+3. What is the difference between weak inversion and strong inversion of a MOS junction?
+
+	Weak inversion is when V < VT while strong inversion is when V ≥ VT
+ 
+4. What is metal-to-semiconductor work function? 
+
+The fermi level energy difference between metal and semiconductor
+
+5. For a heavily n-doped poly-silicon metal and a p-substrate semiconductor, what will be the metal-to-semiconductor work function? Positive or negative?  
+	
+    Positive
+ 
+6. For a heavily p-doped poly-silicon metal and a n-substrate semiconductor, what will be the metal-to-semiconductor work function? Positive or negative?  
+
+    Negative
+ 
+7. What is threshold voltage of a MOS junction? Express threshold voltage for a non-ideal MOS junction. 
+
+    Threshold voltage is the voltage at which the surface concentration exactly equal to the bulk concentration 
+    𝑉𝑇 = 𝑉𝑇𝑖𝑑𝑒𝑎𝑙 + 𝑉𝐹𝐵 = ϕ𝑜𝑥 + ϕ𝑠 + −𝑄𝐹/𝐶0𝑥 + φ𝑚s
+ 
+8. If the oxide (SiO2) increases for a MOS structure, the threshold voltage will increase or decrease?   
+
+    Threshold voltage will increase
+
+9. Instead of a lightly doped p-substrate, if you use a heavily doped p-substrate in a MOS structure then what will be the change in threshold voltage? Will it increase or decrease?   
+
+    The threshold voltage will increase
+
+10. Describe, why MOS capacitance stay minimum at very high frequency and back to high value at low frequency. 
+* Once the capacitance is in inversion at high frequency, mobile carriers at the interface cannot be change easily because mobile carriers are the minority carriers.
+* Minority carriers are thermally generated. The majority carriers are derived from the ionized impurity, but minority carriers are obtained by thermal generation.  Therefore, it will take time to generate required number of minority carriers
+* Changing the voltage very fast will not provide sufficient time for the minority carriers to be generated. Therefore, rapid change in voltage inversion majority  carrier concentration can change very quickly.
+
+
+</details>
