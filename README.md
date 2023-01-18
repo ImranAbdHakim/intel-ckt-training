@@ -662,3 +662,62 @@ The fermi level energy difference between metal and semiconductor
 
 
 </details>
+
+	
+## Day 5
+### Topic - Metal-Oxide-Semiconductor FIELD EFFECT TRANSISTOR
+<details>
+ <summary>Theory</summary>
+ 
+### Theory ###
+
+**Metal-Oxide-Semiconductor Field Effect Transistor (MOSFET)**   
+   ![image](https://user-images.githubusercontent.com/121994033/213080924-ff152e2c-eb59-4bee-8ca0-487f7e4b311d.png)
+	
+**MOSFET Operation (N-Channel Enhancement)**  
+	![image](https://user-images.githubusercontent.com/121994033/213084648-e068e88d-feea-4dda-96e4-aea6268049fc.png)
+
+  * **Cutoff**  
+    * Application: Switch    
+	 	![image](https://user-images.githubusercontent.com/121994033/213081601-95c68695-c7d5-4945-b08b-7d6852604de8.png)
+	
+  * **Linear**  
+    * Application: Switch and linear resistor    
+	 	![image](https://user-images.githubusercontent.com/121994033/213082158-b8ee403e-fea3-464f-84a8-48678e22cf68.png)   
+  * **Saturation**  
+    * Application: Amplifier and constant current source    
+	 	![image](https://user-images.githubusercontent.com/121994033/213082422-6cd9d64a-4d92-4203-9c4f-b38d532d3145.png)  
+
+**MOSFET Operation (P-Channel Enhancement)**   
+	![image](https://user-images.githubusercontent.com/121994033/213084757-28b1c008-e153-431e-bd9e-a4ee2142e96e.png)  
+	![image](https://user-images.githubusercontent.com/121994033/213084875-8e6cdf15-6bf8-419a-8eb2-fb11f8d29bdc.png)   
+	
+ID-VGS Characteristics  
+![image](https://user-images.githubusercontent.com/121994033/213100946-89a9d7ce-8d93-4f9e-a516-be4706f3ac54.png)  
+* Vgs increase, ideally there is no current
+* due to some weak inversion, there is some current
+* after reaching Vt, Id increase drastically and increase Vds
+* Changing Vds also vary the characteristics because increasing Vds will increase Id
+	
+ID-VGS Characteristics with Body Bias  
+![image](https://user-images.githubusercontent.com/121994033/213101049-1293d7b3-838d-42ca-b272-8b7a41ed29fa.png)  
+* Body should always be less than source
+* If body is positive and source negative, it will be a diode and current will flow from body to source
+* If there is body bias, the threshold voltage increase
+* VTO- 0 body bias
+	
+ID-VDS Characteristics  
+![image](https://user-images.githubusercontent.com/121994033/213101097-0bab6fa3-b5da-4712-857e-7de49cf03aec.png)  
+* Vds<Vgs-Vt linear region
+* Vds=Vgs-Vt saturation, act as constant current source ideally
+
+	
+ID-VDS Characteristics: Channel Length Modulation  
+![image](https://user-images.githubusercontent.com/121994033/213101181-4762ecd0-ee9e-499b-b794-7b09a8776cd5.png)  
+* Higher VDS will increase depletion region.
+* channel length decrease because depletion region increase.
+* Current will increase when channel length decrease 
+ 
+	
+	
+ </details>
