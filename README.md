@@ -4,6 +4,8 @@
 * [Day 1 - Fundamentals of VLSI Design and overview of Sand-to-Silicon ]
 * [Day 2 - Details of IC Manufacturing Process ]
 * [Day 3 - CMOS Fabrication Process in Deep Submicron and Ultra Deep Submicron Technology ]
+* [Day 4 - Metal-Oxide-Semiconductor Structure ]
+* [Day 5 - Metal-Oxide-Semiconductor FIELD EFFECT TRANSISTOR ]
 
 
 
