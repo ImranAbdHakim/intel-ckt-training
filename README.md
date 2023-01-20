@@ -721,3 +721,17 @@ ID-VDS Characteristics: Channel Length Modulation
 	
 	
  </details>
+
+MOSFET Intrinsic Capacitances
+
+In cutoff, no channel
+ * depletion regin change, capacitance change
+ * source depletion is smaller than drain, Csb constant because the voltage does not change
+ * Cgso - gate to source overlap, it is constant
+ * Cgb - oxide capacitance, C=A/d
+ * 
+ 
+In Linear, Vgs>Vt
+ * 
+ *
+ *
