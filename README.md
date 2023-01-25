@@ -722,16 +722,50 @@ ID-VDS Characteristics: Channel Length Modulation
 	
  </details>
 
-MOSFET Intrinsic Capacitances
+## Day 6
+### Topic - MOSFET Intrinsic Capacitances
 
-In cutoff, no channel
- * depletion regin change, capacitance change
- * source depletion is smaller than drain, Csb constant because the voltage does not change
- * Cgso - gate to source overlap, it is constant
- * Cgb - oxide capacitance, C=A/d
- * 
+<details>
+ <summary>Theory</summary>
  
-In Linear, Vgs>Vt
- * 
- *
- *
+### Theory ###
+
+**MOSFET Intrinsic Capacitances**
+ 
+**Cutoff Region**  
+![image](https://user-images.githubusercontent.com/121994033/214527391-b1893799-3470-4c9f-a911-309fbb701803.png)  
+* Cgso: gate-source overlap capacitance.
+* Cgdo: gate-drain overlap capacitance.
+* Cdb: drain-bulk reverse bias junction capacitance.
+* Csb: source-bulk reverse bias junction capacitance.
+* Cgb: gate-bulk oxide capacitance
+* No channel relate capacitance because of no channel.
+* No channel formed in cutoff	In cutoff, no channel
+* depletion region formed due to bias voltage Vds
+* source depletion is smaller than drain, Csb constant because the voltage does not change
+* Cgso - gate to source overlap, it is constant
+* Cgb - oxide capacitance, C=A/d
+ 
+**Linear Region**
+![image](https://user-images.githubusercontent.com/121994033/214527773-2912ec7f-a49a-42b9-8724-471e692354ba.png)
+* Cgso: gate-source overlap capacitance.
+* Cgdo: gate-drain overlap capacitance.
+* Cdb: drain-bulk reverse bias junction capacitance.
+* Csb: source-bulk reverse bias junction capacitance.
+* Cgsch: gate-channel oxide capacitance at source side.
+* Cgdch: gate-channel oxide capacitance at source side.
+* Cch-b: channel-bulk capacitance
+* There are additional capacitance compared to cutoff due to channel form between source and drain
+
+**Saturation Region**  
+![image](https://user-images.githubusercontent.com/121994033/214528230-01ba84ef-39e0-47d0-8c92-448ff1cd63f4.png)  
+* Cgso: gate-source overlap capacitance.
+* Cgdo: gate-drain overlap capacitance.
+* Cdb: drain-bulk reverse bias junction capacitance.
+* Csb: source-bulk reverse bias junction capacitance.
+* Cgsch: gate-channel oxide capacitance at source side.
+* Cch-b: channel-bulk capacitance
+* Cdb change because depletion region is bigger
+* There is no Cgdch due to pinch off 
+
+</details>
