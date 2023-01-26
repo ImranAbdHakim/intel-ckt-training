@@ -95,9 +95,9 @@
   </details>
   
  <Details>
- <summary>Lab</summary>
+ <summary>Assignment</summary>
  
- ### Lab 
+ ### Assignment
  **RC Assignment**  
  ![image](https://user-images.githubusercontent.com/121994033/212216232-df6c4662-7c1c-49a0-ae07-ba81509ce382.png)
   </details>
@@ -287,7 +287,7 @@ Metallization
 </details>
 
  <Details>
- <summary>Lab</summary>
+ <summary>Assignment</summary>
  
  1. 
  ![image](https://user-images.githubusercontent.com/121994033/211699505-091d8fd1-a522-4796-919f-fae2979e742b.png)  
@@ -418,9 +418,9 @@ Metallization
 </details>
 
  <details>
- <summary>Lab</summary>
+ <summary>Assignment</summary>
   
-## Lab ##
+## Assignment ##
  
  <Details>
  <summary>1. List the five basic MOS fabrication processing steps and give the purpose or function of each step.</summary>
@@ -609,9 +609,9 @@ Device Structure:
  </details>
  
 <details>
- <summary>Lab</summary>
+ <summary>Assignment</summary>
  
-### Lab ###
+### Assignment ###
 
 
 1. What are the main differences between ideal and real MOS structure? 
