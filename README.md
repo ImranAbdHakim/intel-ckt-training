@@ -769,3 +769,195 @@ ID-VDS Characteristics: Channel Length Modulation
 * There is no Cgdch due to pinch off 
 
 </details>
+
+ <details>
+ <summary>Assignment</summary>
+ 
+### Assignment ###
+	 
+ 3.Vc = 0.8 – 0.5 = 0.3V  
+ ![image](https://user-images.githubusercontent.com/121994033/214736304-9586e3d6-f616-44b5-8840-d433bea25dc9.png)  
+
+ 7.Vc = 0.5V  
+ ![image](https://user-images.githubusercontent.com/121994033/214736329-3171631a-1ad2-44e6-a15e-19356154ded9.png)  
+
+ 11.Vc = 0V  
+ ![image](https://user-images.githubusercontent.com/121994033/214736368-5a91958d-4e3f-42d6-961c-8cd3f83ea34b.png)  
+
+ 15.Vc = 1V  
+ ![image](https://user-images.githubusercontent.com/121994033/214736383-42be8710-2ade-412a-900a-fd2d8cc2de2b.png)  
+
+ 19.Vc = 1.8V  
+ ![image](https://user-images.githubusercontent.com/121994033/214736458-2e718615-d0ab-45bf-9bf2-95b24bd783a0.png)  
+	 
+ 23.Vc = 0V  
+ ![image](https://user-images.githubusercontent.com/121994033/214736512-c88fe903-f810-4b20-8043-278bdc67a7cf.png)  
+
+ 25.Va = 1.8 -0.5 = 1.3V  
+    Vc = 1.3-0.5 = 0.8V  
+
+ 26.Va = 1.8 -0.5 = 1.3V  
+    Vc = 1.8 -0.5 = 1.3V  
+
+ 27.Va = 1.8V  
+    Vc = 1.8V  
+
+ 28.Va = 1.8V  
+    Vc = 0V  
+
+ 29.V1 = 0.5V  
+    V2 = 0.5V  
+    V3 = 0.5V  
+    V4 = 0.5V  
+
+ 30.V1 = 1.3V  
+    V2 = 1.3V  
+    V3 = 1.3V  
+    V4 = 1.3V  
+
+</details> 
+	
+## Day 7
+### Topic - CMOS Inverter
+
+<details>
+ <summary>Theory</summary>
+ 
+### Theory ###
+
+**CMOS Inverter :**    
+![image](https://user-images.githubusercontent.com/121994033/214999323-8f3f8a53-3e86-45dd-afd4-75a0c52d34ca.png)  
+  * 1980 CMOS come to market 
+  * The CMOS Inverter is the core of all digital designs
+  * Analyze with respect to: 
+	* Cost: Expressed by the complexity and area
+	* Integrity and robustness: Expressed by the static (steady-state) behavior. Static current 
+	* Performance: Determined by the dynamic (or transient) response.
+	* Energy Efficiency: Set by the energy and power consumption. 
+
+![image](https://user-images.githubusercontent.com/121994033/214999830-c491768a-f2b8-4f9c-8f37-9a6d186aa77e.png)
+
+  * When input is HIGH, PMOS will turn off while NMOS will be on. The PMOS act likes open circuit switch while NMOS act likes a resistor
+  * When input is LOW, PMOS will turn on while NMOS will turn off. The NMOS act likes open circuit switch while PMOS act likes a resistor
+
+![image](https://user-images.githubusercontent.com/121994033/215003525-e9f2bc9a-5fc2-44e5-9e02-e5e421ad4a8b.png)  
+	
+Properties CMOS Inverter from Switched Level View:
+  * Rail-to-rail swing: results high noise margin
+  * Logic levels are independent of device sizes (ratioless)
+  * In steady state there is always exist a path with a fine resistance between the output and either VDD or Ground. This results low output impedance and less sensitive to noise.
+  * Input impedance of the CMOS inverter is extremely high. Theoretically, a single inverter can drive infinite number of gates
+  * No direct path exit between supply and ground. Static power almost zero.
+	
+**Voltage transfer characteristics**
+![image](https://user-images.githubusercontent.com/121994033/215004387-9cfd025a-098d-4edd-ad23-4c08849ca9f5.png)
+
+![image](https://user-images.githubusercontent.com/121994033/215004511-bd351141-7a2b-4ad3-b815-c9cd701a3494.png)
+
+**Noise Margin**  
+![image](https://user-images.githubusercontent.com/121994033/215004541-ebecb626-1131-434a-ac77-08f8b8c799f1.png)
+* How much noise the inverter can tolerate
+* delta V - noise
+if input 0 + noise - output is 1 : that noise is tolerable
+* slope is steep, less transition region, more noise margin
+
+**Dynamic Behavior**  
+  * High performance CMOS circuit should have less propagation delay, less rise time and less fall time.
+  * Propagation delay of the CMOS inverter is determined by the time it takes to charge and discharge the load capacitance CL through the PMOS and NMOS transistors   	  respectively.
+  * If CL increases;
+    * Propagation delay (PD) increases
+    * Output rise time (Trise) increases
+    * Output fall time (Tfall) increases
+  * The above observation suggests that getting CL as small as possible is crucial to the realization to the high performance CMOS Circuits
+  * Need to understand the major components of the load capacitance.  
+![image](https://user-images.githubusercontent.com/121994033/215006101-6195294c-b735-4b74-be2c-185c3ea213b0.png)
+
+  Intrinsic Capacitance
+  * Cdbp, Cdbn : drain-bulk capacitance  
+  * Cgdp, Cgdn: gate-drain overlap capacitance.  
+  Wiring Capacitance  
+  * Cw: Interconnect wiring capacitance  
+  Fanout Capasitance  
+  * Cgsp, Cgsn: source-bulk reverse bias junction capacitance.  
+
+  * Cload = Cint + Cwiring + Cfanout
+	
+![image](https://user-images.githubusercontent.com/121994033/215006361-b217aef6-902a-448d-9d10-07fe0b2a3024.png)  
+![image](https://user-images.githubusercontent.com/121994033/215006344-2d427c27-9a1e-435f-9aab-a9727628054d.png)
+
+Rise Time :
+  The time required for the output voltage to rise from 10% to 90% of the supply voltage.  
+![image](https://user-images.githubusercontent.com/121994033/215007625-0204c3ce-bd23-4fab-b0b6-8a99db6bbf5e.png)
+
+Fall Time :
+  The time required the output voltage to fall from 90% to 10% of the supply voltage.  
+![image](https://user-images.githubusercontent.com/121994033/215007705-fc28b988-1049-4ac8-bca4-1f95251e9b7c.png)
+
+**Propagation Delay**
+  * Input to output delay during the signal transition (at 50%)
+  * Tplh: Propagation delay at low to high transition at output.
+  * Tphl: Propagation delay at high to low transition at output.  
+![image](https://user-images.githubusercontent.com/121994033/215007959-6556b541-485c-4d5e-9df5-957ba501dc2b.png)  
+![image](https://user-images.githubusercontent.com/121994033/215007981-ce04ef36-1373-4319-8ccc-b7dce8276334.png)
+
+Calculation: 
+  * One way to compute propagation delay of the inverter is to integrate the capacitor charge (discharge) current.
+  * 𝑡_𝑝=∫1_𝑉1^𝑉2▒〖(𝐶_𝐿 (𝑉))/(𝐼(𝑉)) 𝑑𝑉〗
+    Where 𝑖=𝐶ℎ𝑎𝑟𝑔𝑒 (𝑑𝑖𝑠𝑐ℎ𝑎𝑟𝑔𝑒)  𝑐𝑢𝑟𝑟𝑒𝑛𝑡 
+	𝑉=𝑉𝑜𝑙𝑡𝑎𝑔𝑒 𝑜𝑣𝑒𝑟 𝑡ℎ𝑒 𝑐𝑎𝑝𝑎𝑐𝑖𝑡𝑜𝑟
+	𝑉1=𝐼𝑛𝑖𝑡𝑖𝑎𝑙 𝑣𝑜𝑙𝑡𝑎𝑔𝑒
+	𝑉2=𝐹𝑖𝑛𝑎𝑙 𝑣𝑜𝑙𝑡𝑎𝑔𝑒
+  * Exact computation of above equation is difficult, as both 𝐶_𝐿 (𝑉) and 𝑖(𝑉) are non-linear functions of V.
+  * Deriving the propagation delay of the resulting circuit is now straight forward and is nothing more than the analysis of a first-order linear RC network
+![image](https://user-images.githubusercontent.com/121994033/215008111-25937fca-6012-422f-887b-71dfbadc1d5c.png)
+
+Propagation Delay (Tp) of a gate can be minimized in following ways 
+1. Reduce C_L
+  * Internal diffusion capacitance
+  * Interconnect capacitance
+  * Fanout capacitance
+2. Increase the  W/L   ratio of transistors
+  * This is most powerful and effective performance optimization tool in the hands of the designer.
+  * Be careful,  W/L  ratio proportional to C_L: once intrinsic capacitance starts dominating  C_L increasing gate size does not longer help in reducing the delay.
+    * Increase area (self loading)
+    * Increase the fanout factor of the driving gate
+3. Increase VDD
+  * Delay of a gate can be modulated by modifying the supply voltage
+
+![image](https://user-images.githubusercontent.com/121994033/215008303-662229a3-cb78-4639-a72b-dcad00263808.png)
+
+![image](https://user-images.githubusercontent.com/121994033/215009572-e7714d2d-a08e-411f-8cea-d1b4fa678b86.png)  
+![image](https://user-images.githubusercontent.com/121994033/215009583-3b73b774-8f5e-4df9-9ea8-9d8026d83b57.png)  
+![image](https://user-images.githubusercontent.com/121994033/215009592-34ae9066-1d6c-4692-8643-3e6c6153ac78.png)  
+![image](https://user-images.githubusercontent.com/121994033/215009631-468b5f0f-2c98-4af0-a0e4-d34140a37fee.png)  
+ 
+![image](https://user-images.githubusercontent.com/121994033/215009649-222b4302-fcdb-4081-be8a-8fb7507edf40.png)
+
+**Static Power Consumption**
+
+  * The static or steady state power dissipation of a circuit is expressed as;
+  * 𝑃_(𝑠𝑡𝑎𝑡.)=𝐼_(𝑠𝑡𝑎𝑡.) 𝑉_𝐷𝐷
+  * Ideally, 𝐼_(𝑠𝑡𝑎𝑡.)=0 as the PMOS and NMOS devices are never on simultaneously in steady state operation.
+  * But a leakage current flowing through the reverse biased diode junctions of the transistor, located between source and drain and the substrate.
+  * In general the leakage currents are very small and can be ignored. However the junction currents are caused by thermally generated carriers.
+  * Sub-threshold Current: Drain-to-source current even when Vgs is smaller than the threshold voltage,  
+![image](https://user-images.githubusercontent.com/121994033/215009803-494e07cb-5fec-496c-a8b9-5e0577fc9bcf.png)  
+	
+**Power Dissipation Summary**
+
+The total power of the CMOS inverter is expressed as the sum of the its three components:
+𝑃_𝑇𝑜𝑡𝑎𝑙=𝑃_𝑑𝑦𝑛+𝑃_𝑑𝑝+𝑃_(𝑠𝑡𝑎𝑡.)
+𝑃_𝑑𝑦𝑛= Dominant
+𝑃_𝑑𝑝= Can be kept within bounds under the designers control
+𝑃_(𝑠𝑡𝑎𝑡.)= Ignorable but significant in sub-micron and deep sub-micron technologies.  
+![image](https://user-images.githubusercontent.com/121994033/215009932-8f9784f9-dc1d-41f4-ab86-447beb596e4e.png)  
+
+</details> 
+
+
+
+
+
+
+
+
