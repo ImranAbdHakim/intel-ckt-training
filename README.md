@@ -6,6 +6,8 @@
 * [Day 3 - CMOS Fabrication Process in Deep Submicron and Ultra Deep Submicron Technology ]
 * [Day 4 - Metal-Oxide-Semiconductor Structure ]
 * [Day 5 - Metal-Oxide-Semiconductor FIELD EFFECT TRANSISTOR ]
+* [Day 6 - MOSFET Intrinsic Capacitances ]
+* [Day 7 - CMOS Inverter ]
 
 
 
