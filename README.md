@@ -957,8 +957,34 @@ The total power of the CMOS inverter is expressed as the sum of the its three co
 </details> 
 
 
+## Day 8
+### Topic - CMOS Inverter
 
+<details>
+ <summary>Theory</summary>
+ 
+### Theory ###
 
+MOSFET Scaling 
+
+transistor get smaller, power density stays constant, voltage and current scale downward with length
+
+short channel effect 
+
+two physical phenomena
+	the limitation imposed on electron drift characteristics 
+	the modification of Vth due to shortening of channel length
+	
+seven sce
+	drain induced barrier lowering and punch through
+	Mobility degradation or surface scattering
+	velocity saturation
+	impact ionization
+	hot electrons
+	sub-threshold conduction
+	Vt roll-off
+	
+	DIBL- lose gate control
 
 
 
