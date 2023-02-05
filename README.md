@@ -986,6 +986,7 @@ seven sce
 	
 	DIBL- lose gate control
 
-
-
+	* In many practical cases, constant-voltage scaling is favored over constant-field scaling due to external constraints on voltage levels.
+	* However, it should be noted that constant-voltage scaling leads to an increase in drain current density and power density by a factor of S^3.
+	* This significant rise in current and power density can ultimately lead to significant reliability issues for the scaled transistor, including 		  electromigration, hot-carrier degradation, oxide breakdown, and electrical over-stress.
 
