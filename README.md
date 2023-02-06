@@ -964,29 +964,75 @@ The total power of the CMOS inverter is expressed as the sum of the its three co
  <summary>Theory</summary>
  
 ### Theory ###
+MOSFET Parameter Extraction 
+
+![image](https://user-images.githubusercontent.com/121994033/217016056-f55036f0-1ffa-492d-82a7-c0baa1bda833.png)  
+![image](https://user-images.githubusercontent.com/121994033/217016146-9fcd489a-663b-4f32-8805-5871a563f675.png)  
+![image](https://user-images.githubusercontent.com/121994033/217016212-5007a2e0-063c-4ae5-bed1-06c9bd306c04.png)  
+![image](https://user-images.githubusercontent.com/121994033/217016281-d506315b-e459-4075-b02e-33a6e8663abf.png)
 
 MOSFET Scaling 
+
+![image](https://user-images.githubusercontent.com/121994033/217017100-ac81c781-b572-42fd-8905-0339be7c382f.png)  
+• Dennard scaling, also known as MOSFET scaling, is a law in semiconductor electronics that states that as transistors become smaller, their power density remains constant while both voltage and current decrease proportionally with length.
+• The process of reducing the size of MOSFET is referred to as scaling.
+• There are two methods for reducing size: full scaling and constant voltage scaling.
+
+![image](https://user-images.githubusercontent.com/121994033/217017538-afb1c353-2468-4efa-b7ae-79ee226e54be.png)
+![image](https://user-images.githubusercontent.com/121994033/217017598-f9686c94-107b-4f74-aff3-df333a829965.png)
+
+* In many practical cases, constant-voltage scaling is favored over constant-field scaling due to external constraints on voltage levels.
+* However, it should be noted that constant-voltage scaling leads to an increase in drain current density and power density by a factor of S^3.
+* This significant rise in current and power density can ultimately lead to significant reliability issues for the scaled transistor, including electromigration, hot-carrier degradation, oxide breakdown, and electrical over-stress.
 
 transistor get smaller, power density stays constant, voltage and current scale downward with length
 
 short channel effect 
 
-two physical phenomena
-	the limitation imposed on electron drift characteristics 
-	the modification of Vth due to shortening of channel length
-	
-seven sce
-	drain induced barrier lowering and punch through
-	Mobility degradation or surface scattering
-	velocity saturation
-	impact ionization
-	hot electrons
-	sub-threshold conduction
-	Vt roll-off
-	
-	DIBL- lose gate control
+• A MOSFET is considered short when the channel length is similar in magnitude to the depletion-layer widths (𝑥𝑑𝐷, 𝑥𝑑𝑆) of the source and drain junction.
+• Alternatively, a MOSFET can be defined as a short-channel device if the effective channel length (𝐿𝑒𝑓𝑓) is approximately equal to the source and drain junction depth 𝑥j.
 
-	* In many practical cases, constant-voltage scaling is favored over constant-field scaling due to external constraints on voltage levels.
-	* However, it should be noted that constant-voltage scaling leads to an increase in drain current density and power density by a factor of S^3.
-	* This significant rise in current and power density can ultimately lead to significant reliability issues for the scaled transistor, including 		  electromigration, hot-carrier degradation, oxide breakdown, and electrical over-stress.
+• The short channel effects in a MOSFET device are caused by two physical factors:
+	1. The restrictions on electron drift in the channel,
+	2. The alteration of the threshold voltage as a result of the shortening of the channel length.
+	
+• Seven types of short channel effect
+	* drain induced barrier lowering and punch through
+	* Mobility degradation or surface scattering
+	* velocity saturation
+	* impact ionization
+	* hot electrons
+	* sub-threshold conduction
+	* Vt roll-off
+	
+* In small MOSFETs, the potential barrier is influenced by both VGS (gate-to-source voltage) and VDS (drain-to-source voltage).
+* If the drain voltage increases, the potential barrier in the channel decreases, resulting in drain-induced barrier lowering (DIBL).
+* The reduction of the potential barrier eventually enables electron flow between the source and drain, even when the gate-to-source voltage is below the threshold voltage.
+* The current that flows in the channel under these conditions (VGS<VT0) is known as the subthreshold current.
+
+* As the channel length decreases due to the expansion of the depletion layer into the channel region, the longitudinal electric field component (𝐸𝑦) increases and the surface mobility (µ) becomes dependent on the field.
+* In a MOSFET, the carrier transport occurs within the narrow inversion layer, and surface scattering (collisions experienced by electrons as they are accelerated towards the interface by 𝐸𝑥) reduces mobility.
+* The electrons have difficulty moving parallel to the interface, resulting in an average surface mobility that is about half that of the bulk mobility, even for small values of 𝐸𝑦.
+
+* At low 𝐸𝑦, the electron drift velocity (𝑣𝑑𝑒) in the channel increases linearly with the electric field intensity. But as 𝐸𝑦 rises above 104 V/cm, the drift velocity increases more gradually and approaches a saturation value of 𝑣𝑑𝑒𝑠𝑎𝑡 = 107 cm/s at 𝐸𝑦 = 105 V/cm and 300 K.
+* Short-channel devices are also impacted by velocity saturation, which decreases the transconductance in saturation mode.
+* It is important to note that in short-channel devices, the drain current is limited by velocity saturation, not pinch off. This occurs when the dimensions are scaled without lowering the bias voltages.
+
+* Impact ionization is a process where an electron-hole pair is generated due to high longitudinal electric field.
+* The holes are then swept into the bulk.
+* The potential drop created by the hole current results in a bulk-to-source forward bias.
+* This leads to additional electron injection and increased carrier flow into the drain.
+
+* High electric fields can also cause issues known as "hot electrons."
+* The high energy of these hot electrons can accumulate over time and degrade the performance of the device.
+* This can lead to an increase in the threshold voltage and have a negative impact on the device.
+
+* Sub-threshold conduction refers to the behavior of the device when the gate voltage is below the threshold voltage (Vgs < Vt).
+* In this weak inversion regime, the current decreases exponentially with a straight line appearance on a logarithmic scale.
+* The sub-threshold leakage current increases with increasing drain-to-source voltage (Vds) due to drain-induced barrier lowering.
+* The drain junction leakage sets a lower limit on the drain-source current (Ids), and this is further exacerbated by the negative gate voltage.
+
+![image](https://user-images.githubusercontent.com/121994033/217020602-4b2f6aa8-e96e-4821-8aac-9f961dd6a4de.png)  
+![image](https://user-images.githubusercontent.com/121994033/217020472-22a011c3-fd39-4ffa-8b4c-286aff2e8657.png)  
+![image](https://user-images.githubusercontent.com/121994033/217020527-afc1977d-9504-4777-ba55-23b6c2473204.png)
 
