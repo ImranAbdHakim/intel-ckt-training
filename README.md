@@ -776,47 +776,9 @@ ID-VDS Characteristics: Channel Length Modulation
  <summary>Assignment</summary>
  
 ### Assignment ###
+	
+  + **[Assignment-MOSFET with Capacitor](https://github.com/ImranAbdHakim/intel-ckt-training/blob/main/Assignment%20Day%206%20circuit%20training.pdf)**
 	 
- 3.Vc = 0.8 – 0.5 = 0.3V  
- ![image](https://user-images.githubusercontent.com/121994033/214736304-9586e3d6-f616-44b5-8840-d433bea25dc9.png)  
-
- 7.Vc = 0.5V  
- ![image](https://user-images.githubusercontent.com/121994033/214736329-3171631a-1ad2-44e6-a15e-19356154ded9.png)  
-
- 11.Vc = 0V  
- ![image](https://user-images.githubusercontent.com/121994033/214736368-5a91958d-4e3f-42d6-961c-8cd3f83ea34b.png)  
-
- 15.Vc = 1V  
- ![image](https://user-images.githubusercontent.com/121994033/214736383-42be8710-2ade-412a-900a-fd2d8cc2de2b.png)  
-
- 19.Vc = 1.8V  
- ![image](https://user-images.githubusercontent.com/121994033/214736458-2e718615-d0ab-45bf-9bf2-95b24bd783a0.png)  
-	 
- 23.Vc = 0V  
- ![image](https://user-images.githubusercontent.com/121994033/214736512-c88fe903-f810-4b20-8043-278bdc67a7cf.png)  
-
- 25.Va = 1.8 -0.5 = 1.3V  
-    Vc = 1.3-0.5 = 0.8V  
-
- 26.Va = 1.8 -0.5 = 1.3V  
-    Vc = 1.8 -0.5 = 1.3V  
-
- 27.Va = 1.8V  
-    Vc = 1.8V  
-
- 28.Va = 1.8V  
-    Vc = 0V  
-
- 29.V1 = 0.5V  
-    V2 = 0.5V  
-    V3 = 0.5V  
-    V4 = 0.5V  
-
- 30.V1 = 1.3V  
-    V2 = 1.3V  
-    V3 = 1.3V  
-    V4 = 1.3V  
-
 </details> 
 	
 ## Day 7
