@@ -779,6 +779,37 @@ ID-VDS Characteristics: Channel Length Modulation
 	
   + **[Assignment-MOSFET with Capacitor](https://github.com/ImranAbdHakim/intel-ckt-training/blob/main/Assignment%20Day%206%20circuit%20training.pdf)**
 	 
+**NMOS characteristic**
+
+Ids-Vgs characteristics
+ * Vgs = sweep 0 to 1.2
+ * Vds = 1.2  
+ ![image](https://user-images.githubusercontent.com/121994033/218509268-1069c15b-24fd-406e-b401-3a4e55138728.png)
+ 
+Ids-Vgs Char. at different Vds  
+ ![image](https://user-images.githubusercontent.com/121994033/218511205-e8dd7e69-0e19-4408-b121-c51c562fdf72.png)
+ 
+Ids-Vds characteristics  
+ ![image](https://user-images.githubusercontent.com/121994033/218512186-4a235021-736e-4547-a8b2-a8807b5d4e43.png)
+
+Ids-Vds char. at different Vgs  
+![image](https://user-images.githubusercontent.com/121994033/218513599-01f4ad70-7779-46d9-8bef-01bd163a46c2.png)
+
+
+**PMOS characteristic**
+
+Isd-Vsg characteristics  
+ ![image](https://user-images.githubusercontent.com/121994033/218510135-5d65fc36-fb33-45e5-b5a5-e4de48149267.png)
+ 
+Isd-Vsg Char. at different Vds  
+ ![image](https://user-images.githubusercontent.com/121994033/218510643-d591e6f8-1ea7-4090-a315-56968a8f6181.png)
+
+Isd-Vsd characteristics  
+ ![image](https://user-images.githubusercontent.com/121994033/218510755-e75bd645-ccd6-4b82-9224-378ff7e1ae7c.png)
+ 
+Isd-Vsd char. at different Vgs
+ ![image](https://user-images.githubusercontent.com/121994033/218510885-65604dfb-54e8-43fb-a8d6-3bfe3791c5d6.png)
+
 </details> 
 	
 ## Day 7
@@ -920,7 +951,7 @@ The total power of the CMOS inverter is expressed as the sum of the its three co
 
 
 ## Day 8
-### Topic - CMOS Inverter
+### Topic - MOSFET Parameter Extraction, Scaling, Short Channel Effects and PVT Variations
 
 <details>
  <summary>Theory</summary>
@@ -998,3 +1029,76 @@ short channel effect
 ![image](https://user-images.githubusercontent.com/121994033/217020472-22a011c3-fd39-4ffa-8b4c-286aff2e8657.png)  
 ![image](https://user-images.githubusercontent.com/121994033/217020527-afc1977d-9504-4777-ba55-23b6c2473204.png)
 
+</details> 
+
+## Day 9
+### Topic - Combinational Digital Logic Circuits
+
+<details>
+ <summary>Theory</summary>
+ 
+ **Combinational Logic**
+ 
+ * The output of the circuit is related to its current input signals by some Boolean expression
+ * The gates coming under combinational logics are:  
+    basic gates: NOT, AND, OR   
+    universal gates : NAND, NOR  
+    special gates : X-OR, XNOR  
+    complex gates : AOI, OAI, adders, subtractors, multiplexers, decoders and transmission gate.  
+ * There are numerous circuit styles to implement a given logic function. As with the inverter, the common design matrics by which a gate is evaluated are speed, power and area
+ * Most used style is static CMOS where it is an extension of CMOS inverter.
+ 
+ **Complementary MOS Logic**
+ * A static CMOS is a combination of the pull-up network (PUN) and pull-down network (PDN).
+ * The function of the PUN is to provide the connection between the output and VDD anytime the output of the logic gate is meant to be High.
+ * The function of the PDN is to provide the connection between the output and GND anytime the output of the logic gate is meant to be Low.
+ * At one time, only one connection is conducting
+ * A transistor can be thought of as a switch controlled by its gate terminal.
+ * An NMOS transistor is ON when the controlling signal is high and is OFF when the controlling signal is low while the PMOS is vice versa.
+ * PUN is constructed using PMOS devices, while PDN is constructed using NMOS devices because NMOS is strong '0' passer while PMOS is strong '1' passer.
+ 
+ ![image](https://user-images.githubusercontent.com/121994033/217707670-e06ec479-b162-40e3-bc05-b36c50995416.png)
+
+ * Pull-up and pull-down networks of a complementary CMOS structure are dual networks.
+ * The number of transistors required to implement an N-Input logic gate is 2N.
+![image](https://user-images.githubusercontent.com/121994033/217708681-e4d497ea-b26b-438b-943d-24424aebea67.png)
+
+**Static Properties of Complementary CMOS Gates**
+
+Complementary CMOS gates inherits all the nice properties of the basic CMOS inverters  
+• Rail-to-rail swing, 𝑉𝑂𝐻 = 𝑉𝐷𝐷 and 𝑉𝑂𝐿 = 0  
+• No static power dissipation  
+• VTC and noise margin analysis is little bit complicated as these parameters depends upon the data inputs applied to gate.   
+![image](https://user-images.githubusercontent.com/121994033/217709563-4682000a-c9fc-457d-ad04-46ab424f0156.png)  
+![image](https://user-images.githubusercontent.com/121994033/217709585-4b00e21c-4a33-43b8-874e-9419312fba7d.png)  
+
+**Propagation Delay of Complementary CMOS Gates**
+* The computation of propagation delay proceeds in a fashion similar to static inverters.
+* For delay analysis, each transistor is modeled as a resistor in series with an ideal switch.
+
+![image](https://user-images.githubusercontent.com/121994033/217711418-88ddb9ac-c8da-41cf-b00c-0cbd7108bf6f.png)
+
+![image](https://user-images.githubusercontent.com/121994033/217711532-d22216a4-d824-451d-867b-b83ab2eb684f.png)
+![image](https://user-images.githubusercontent.com/121994033/217711570-fb5ab93e-d1ff-485e-b016-a2ad47b9b703.png)
+
+* For NAND gate, to make 𝑡𝑃𝐻𝐿−𝑁𝐴𝑁𝐷 = 𝑡𝑃𝐻𝐿−𝐼𝑁𝑉 , we have to reduce the resistance of PDN devices of NAND gate to half of the previous.
+* This can be possible if the size of the PDN devices will be two times of the previous.
+* This is the same with NOR gate except that the PUN will be two times of the previous.
+* Therefore, to get the same delay as the inverter NOR implementation required more area compared to NAND implementation. So, NAND implementation is preferred over NOR implementation.
+
+
+**Complex Logic Circuit**
+
+* AND-OR-INVERT (AOI) logic : enables the sum of products realization of a Boolean function in one logic stage.
+* OR-AND-INVERT (OAI) logic : • The OAI gates on the other hand, enables the product-of-sums realization of a Boolean function in one logic stage.
+* The pull-down network of AOI gate consists of parallel branches of series connected NMOS driver transistors.
+
+**Transmission Gate**
+
+* One NMOS and one PMOS transistor connected in parallel.
+* Gate voltages applied to these two transistors are also set to be complementary signals.
+* Bi-directional switch between the nodes A and B, that is controlled by signal C.
+* CMOS TG is also used to make combinational circuit to reduce transistor counts
+* CMOS TG is used in latch and Flip-flops.
+
+![image](https://user-images.githubusercontent.com/121994033/217724843-eaa96fb8-ad11-4d8f-8578-51139665271d.png)
