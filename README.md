@@ -778,14 +778,19 @@ ID-VDS Characteristics: Channel Length Modulation
 ### Assignment ###
 	
   + **[Assignment-MOSFET with Capacitor](https://github.com/ImranAbdHakim/intel-ckt-training/blob/main/Assignment%20Day%206%20circuit%20training.pdf)**
-	 
-**NMOS characteristic**
+
+<details>
+ <summary>NMOS characteristic</summary>
 
 Ids-Vgs characteristics
  * Vgs = sweep 0 to 1.2
  * Vds = 1.2  
  ![image](https://user-images.githubusercontent.com/121994033/218509268-1069c15b-24fd-406e-b401-3a4e55138728.png)
  
+Vt from graph  
+ * Vt=~0.46V  
+ ![image](https://user-images.githubusercontent.com/121994033/218632645-4a29518c-eae8-4e84-9765-ed59ba9942b9.png)  
+
 Ids-Vgs Char. at different Vds  
  ![image](https://user-images.githubusercontent.com/121994033/218511205-e8dd7e69-0e19-4408-b121-c51c562fdf72.png)
  
@@ -795,8 +800,10 @@ Ids-Vds characteristics
 Ids-Vds char. at different Vgs  
 ![image](https://user-images.githubusercontent.com/121994033/218513599-01f4ad70-7779-46d9-8bef-01bd163a46c2.png)
 
+</details>
 
-**PMOS characteristic**
+<details>
+ <summary>PMOS characteristic</summary>
 
 Isd-Vsg characteristics  
  ![image](https://user-images.githubusercontent.com/121994033/218510135-5d65fc36-fb33-45e5-b5a5-e4de48149267.png)
@@ -809,7 +816,7 @@ Isd-Vsd characteristics
  
 Isd-Vsd char. at different Vgs
  ![image](https://user-images.githubusercontent.com/121994033/218510885-65604dfb-54e8-43fb-a8d6-3bfe3791c5d6.png)
-
+</details>
 </details> 
 	
 ## Day 7
