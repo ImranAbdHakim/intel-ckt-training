@@ -800,6 +800,10 @@ Ids-Vds characteristics
 Ids-Vds char. at different Vgs  
 ![image](https://user-images.githubusercontent.com/121994033/218513599-01f4ad70-7779-46d9-8bef-01bd163a46c2.png)
 
+Ids at different corner  
+ ![image](https://user-images.githubusercontent.com/121994033/219098058-e5ef4225-e010-45de-9f15-7629236ec178.png)
+
+
 </details>
 
 <details>
@@ -816,6 +820,15 @@ Isd-Vsd characteristics
  
 Isd-Vsd char. at different Vgs
  ![image](https://user-images.githubusercontent.com/121994033/218510885-65604dfb-54e8-43fb-a8d6-3bfe3791c5d6.png)
+
+Isd at different corner
+ ![image](https://user-images.githubusercontent.com/121994033/219089363-934a8518-2096-4b17-8b2e-8441e32d8052.png)
+
+Vth at different corner  
+ ![image](https://user-images.githubusercontent.com/121994033/219092937-673c2063-5313-4d88-ba66-c1d385ba1c26.png)
+
+	
+
 </details>
 </details> 
 	
