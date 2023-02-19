@@ -969,6 +969,13 @@ The total power of the CMOS inverter is expressed as the sum of the its three co
 
 </details> 
 
+ <details>
+ <summary>Assignment</summary>
+ 
+### Assignment ###
+	
+  + **[Assignment-CMOS Characterization](https://github.com/ImranAbdHakim/intel-ckt-training/blob/main/assignment%20day%207.pdf)**
+ </details>
 
 ## Day 8
 ### Topic - MOSFET Parameter Extraction, Scaling, Short Channel Effects and PVT Variations
