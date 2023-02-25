@@ -1129,3 +1129,15 @@ Complementary CMOS gates inherits all the nice properties of the basic CMOS inve
 * CMOS TG is used in latch and Flip-flops.
 
 ![image](https://user-images.githubusercontent.com/121994033/217724843-eaa96fb8-ad11-4d8f-8578-51139665271d.png)
+
+</details> 
+
+## Day 10
+### Topic - Sequential Digital Logic Circuits
+
+<details>
+ <summary>Theory</summary>
+ 
+ * Sequential logic circuits retain past input values in addition to current input values, influencing their output. They possess memory and are categorized by    regenerative circuits, which can be classified as bistable, monostable, and astable circuits. Bistable circuits are the most commonly utilized and are responsible for creating latches, flip-flops, registers, and memory elements.
+ 
+ 
