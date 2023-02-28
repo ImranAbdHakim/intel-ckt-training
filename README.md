@@ -1139,5 +1139,66 @@ Complementary CMOS gates inherits all the nice properties of the basic CMOS inve
  <summary>Theory</summary>
  
  * Sequential logic circuits retain past input values in addition to current input values, influencing their output. They possess memory and are categorized by    regenerative circuits, which can be classified as bistable, monostable, and astable circuits. Bistable circuits are the most commonly utilized and are responsible for creating latches, flip-flops, registers, and memory elements.
+ ![image](https://user-images.githubusercontent.com/121994033/221726217-8e0b7d68-6d67-4ac2-815a-136b9d8e3ad9.png)
  
+ ![image](https://user-images.githubusercontent.com/121994033/221726332-292c0595-78b2-4414-94ef-c0a70d86fa6a.png)
+ 
+ ![image](https://user-images.githubusercontent.com/121994033/221726454-a4387640-5218-464c-ae31-226bb60ba256.png)
+ 
+ ![image](https://user-images.githubusercontent.com/121994033/221726568-e126cd78-1058-4abf-a674-aaa8a3f9cd48.png)
+ 
+ ![image](https://user-images.githubusercontent.com/121994033/221726625-44bfa561-2f7c-43ba-9ac4-c4da3998baa0.png)
+ 
+ ![image](https://user-images.githubusercontent.com/121994033/221726679-558e6992-34a1-4c33-86f7-78e98ae90cc2.png)
+
+ ![image](https://user-images.githubusercontent.com/121994033/221726736-8e9995d6-0cfe-41f8-82e5-dd0c2330fa75.png) 
+
+ ![image](https://user-images.githubusercontent.com/121994033/221726801-500bd244-4d24-419a-86ef-8e860122beff.png)
+ 
+ ![image](https://user-images.githubusercontent.com/121994033/221726897-6cd16f67-a79d-4674-8a58-47ca73a4aaa4.png)
+ 
+ ![image](https://user-images.githubusercontent.com/121994033/221726952-8249714a-6cea-48bb-9be6-44bf2761e433.png)
+ This is the robust transparent latch that addresses all of the deficiencies mentioned so far.
+• The latch is static
+• All nodes swing rail-to-rail
+• Sate noise isolated from output noise
+• Input drives transistor gate rather than diffusion.
+
+![image](https://user-images.githubusercontent.com/121994033/221727070-d6b93e2c-6dd5-42c7-b793-cbfde8c43a82.png)
+
+![image](https://user-images.githubusercontent.com/121994033/221727156-6ed5a0d6-d589-4f40-bf8b-7c36d23346e5.png)
+
+![image](https://user-images.githubusercontent.com/121994033/221727212-0a6e2adc-6751-4be0-8049-a38da30d1084.png)
+
+• Setup Time: It is defined as the minimum amount of time before the
+clock’s active edge that the data must be
+stable for it to be latched correctly.
+• Any violation may cause incorrect data
+to be captured, which is known as setup
+violation.
+• Hold Time: It is defined as the
+minimum amount of time after the
+clock’s active edge during which data
+must be stable.
+• Violation in this case may cause
+incorrect data to be latched, which is
+called as hold violation.  
+![image](https://user-images.githubusercontent.com/121994033/221727601-53e06291-af65-47da-9c48-b9155037ceae.png)  
+• When CK=High, input D is traverse through 1-2-3-4 and reflected at node 5 after some time.
+• The time that it takes D to reach node 5 is called the setup time.
+• When CK=Low, TG1 is switched OFF and TG2 is switched ON. Therefore, the LHS latching circuit
+kicks into action latching the value present at node D and producing it in the output (Q=D)
+• Any data sent before the setup time, will produce a stable value at node 5. This defines the reason for the
+setup time within a flop.
+
+![image](https://user-images.githubusercontent.com/121994033/221727729-fb0e684c-9a12-4614-a4e8-be6a2e96ebb5.png)
+
+</details> 
+
+
+
+
+
+
+
  
