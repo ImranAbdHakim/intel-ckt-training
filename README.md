@@ -1132,6 +1132,20 @@ Complementary CMOS gates inherits all the nice properties of the basic CMOS inve
 
 </details> 
 
+<details>
+<summary>Assignment</summary>
+ 
+### Assignment ###	
+
+**Transmission Gate**  
+![image](https://user-images.githubusercontent.com/121994033/225374440-d067e310-a887-4ae7-891f-1a44272cbbd6.png)  
+**TG simulation to confirm PMOS passes strong '1' and NMOS passes strong '0'**  
+![image](https://user-images.githubusercontent.com/121994033/225374626-2eebfe5f-de83-4c0b-b40d-350a763b0fde.png)
+**Input-output characteristic of a Transmission Gate (DC Simulation)**
+![image](https://user-images.githubusercontent.com/121994033/225374963-c3bc1dc0-5f9a-4dda-ba9f-adfd5f6fb4d0.png)
+
+ </details>
+ 
 ## Day 10
 ### Topic - Sequential Digital Logic Circuits
 
@@ -1195,6 +1209,33 @@ setup time within a flop.
 
 </details> 
 
+<details>
+<summary>Assignment</summary>
+ 
+### Assignment ###	
+
+**SR Latch**  
+![image](https://user-images.githubusercontent.com/121994033/225370763-9aae695b-73d0-4d98-9e24-e6039eed2c63.png)   
+**SR Latch Timing Diagram**  
+![image](https://user-images.githubusercontent.com/121994033/225370840-0c971b04-e2f5-47ca-9cc5-28970929bc28.png)   
+**JK Latch**   
+![image](https://user-images.githubusercontent.com/121994033/225371167-6c8e8a53-db1d-4470-a77e-9fd4a10fdb12.png)  
+**JK Latch Timing Diagram**  
+![image](https://user-images.githubusercontent.com/121994033/225371571-b567d776-768b-4856-a71a-a3405b217101.png)  
+**JK Flip Flop**  
+![image](https://user-images.githubusercontent.com/121994033/225371637-17747df2-5552-473d-9ef7-86d6fec615cb.png)  
+**JK Flip Flop Timing Diagram**  
+![image](https://user-images.githubusercontent.com/121994033/225371847-9af949e7-13ec-40d5-bb58-cf8128cfb833.png)  
+**D Latch**  
+![image](https://user-images.githubusercontent.com/121994033/225372048-fb10ace3-4104-494c-90f0-4d93e3023c66.png)  
+**D Latch Timing Diagram**  
+![image](https://user-images.githubusercontent.com/121994033/225372206-32b0de01-1658-438e-adaf-a02bd098ebe2.png)  
+**D Flip Flop**  
+![image](https://user-images.githubusercontent.com/121994033/225372300-ef8281b5-d30b-4d25-9386-ae39f030c53f.png)  
+**D Flip Flop Timing Diagram**  
+![image](https://user-images.githubusercontent.com/121994033/225372436-b27589e5-ebbf-4187-a817-b148de3aecd3.png)  
+
+ </details>
 
 
 
