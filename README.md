@@ -1236,8 +1236,18 @@ setup time within a flop.
 ![image](https://user-images.githubusercontent.com/121994033/225372436-b27589e5-ebbf-4187-a817-b148de3aecd3.png)  
 
  </details>
+	
+## Day 12
+### Topic - Current mirror
 
+<details>
+ <summary>Theory</summary>
 
+	
+	
+	
+</details>
+	
 ## Day 14
 ### Topic - Current mirror
 
