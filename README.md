@@ -1285,4 +1285,23 @@ setup time within a flop.
 
  </details>
 
- 
+## Day 15
+### Topic - Single Ended and Differential Amplifier
+
+<details>
+ <summary>Theory</summary>
+	
+![image](https://user-images.githubusercontent.com/121994033/226657565-654566e2-6e06-411a-9d62-c0facf940150.png)  
+![image](https://user-images.githubusercontent.com/121994033/226657697-714c4ea0-b457-4e9d-90e7-209834354636.png)  
+![image](https://user-images.githubusercontent.com/121994033/226657855-c74e5e87-a56e-4f8f-8663-1f1ad7418428.png)  
+![image](https://user-images.githubusercontent.com/121994033/226657997-0882f31a-3d3a-498a-990c-0b992455b95e.png)  
+![image](https://user-images.githubusercontent.com/121994033/226658137-058be33d-a4e4-41c0-8ffd-395e09f45e82.png)
+![image](https://user-images.githubusercontent.com/121994033/226658208-89da408a-9a12-44c5-bb47-16354deccb24.png)
+	
+</details>
+
+
+
+
+
+
