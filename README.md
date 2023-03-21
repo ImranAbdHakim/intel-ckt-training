@@ -1238,8 +1238,41 @@ setup time within a flop.
  </details>
 
 
+## Day 14
+### Topic - Current mirror
+
+<details>
+ <summary>Theory</summary>
+
+* Current mirror is a circuit which output to input current ratio is a constant
+![image](https://user-images.githubusercontent.com/121994033/226502527-080eeb53-2070-423f-89cb-5e08ec423a9e.png)  
+
+![image](https://user-images.githubusercontent.com/121994033/226504596-be7d096d-c884-483d-ab60-c8a72a80d0b8.png)  
+![image](https://user-images.githubusercontent.com/121994033/226507791-dbebdfe8-3fd7-4506-8ef5-c3e01bac28d4.png)  
+![image](https://user-images.githubusercontent.com/121994033/226508986-56457aeb-c214-410b-b39f-83016252a26c.png)  
+![image](https://user-images.githubusercontent.com/121994033/226511212-e4d3a9d4-06e5-4ef7-9b62-79fabf64a9b4.png)  
+![image](https://user-images.githubusercontent.com/121994033/226511179-44e65c98-06dd-4ae9-8c37-22e1f93c1df9.png)  
+</details> 
+
+<details>
+<summary>Assignment</summary>
+	
+### Assignment ###
+
+![image](https://user-images.githubusercontent.com/121994033/226512157-5aaf0718-410b-4d06-b322-c3e10a85069b.png)  
+![image](https://user-images.githubusercontent.com/121994033/226512173-47933899-a75b-4b0b-a8c6-73e407a7e3a7.png) 
+![image](https://user-images.githubusercontent.com/121994033/226512187-7fd06928-e0f4-48e7-a0a3-df5fc5e8f730.png)
+	
+![image](https://user-images.githubusercontent.com/121994033/226512219-3f5fd766-72dc-44ca-a751-44bf1326326b.png) 
+![image](https://user-images.githubusercontent.com/121994033/226512246-0d66c2e7-4a1a-4739-ba11-48b9b2eb0b26.png) 
+	
+![image](https://user-images.githubusercontent.com/121994033/226512306-9d74b4fc-a2b8-4e6f-8f50-f8addfa58963.png) 
+![image](https://user-images.githubusercontent.com/121994033/226512324-65545f10-eafd-4898-8bbb-ebfe7c17ee01.png)  
+	
+![image](https://user-images.githubusercontent.com/121994033/226512353-2e98ff0c-5dd5-4170-8b16-e640e0d0711e.png)  
+![image](https://user-images.githubusercontent.com/121994033/226512381-a93a8a62-f9f0-4f66-ba96-aa02dc391c84.png)  
 
 
-
+ </details>
 
  
