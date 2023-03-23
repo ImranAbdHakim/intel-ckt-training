@@ -1395,6 +1395,35 @@ setup time within a flop.
 
 
 
+## Day 16
+### Topic - Two Stage Operational Amplifier
+	
+<details>
+<summary>Theory</summary>
+
+1. Voltage follower  
+![image](https://user-images.githubusercontent.com/121994033/227255015-998c4f41-4cf1-49f9-9421-b43f4633a07c.png)    
+
+2. Inverting amplifier  
+![image](https://user-images.githubusercontent.com/121994033/227255223-b126f470-1ff4-4e64-8678-2cff3d271d77.png)  
+
+3. Non-inverting amplifier   
+![image](https://user-images.githubusercontent.com/121994033/227255684-d2d28eb9-a13d-400e-bd25-d8bfebb0e15c.png)  
+
+4. Inverting amplifier + low pass filer  
+![image](https://user-images.githubusercontent.com/121994033/227255997-41bb73ff-f4e1-4f94-b57c-3dd195065fa6.png)  
+	
+5. Inverting amplifier + high pass filer  
+![image](https://user-images.githubusercontent.com/121994033/227256303-78a1df32-8b34-41f9-9820-e7593b99a8b0.png)
+
+**Classical Op-Amp** 
+![image](https://user-images.githubusercontent.com/121994033/227253718-70b0285c-1a1a-4afa-97fa-9fafd442f28c.png)
+
+![image](https://user-images.githubusercontent.com/121994033/227257271-30454a67-e45a-4bbf-a93f-656dc393c048.png)  
+![image](https://user-images.githubusercontent.com/121994033/227257343-8152df08-3133-43a4-9be3-213c96f4b3c7.png)  
+![image](https://user-images.githubusercontent.com/121994033/227257741-bdb8a06f-f0d6-4adc-8114-9710060ce7f1.png)
 
 
 
+
+</details>
