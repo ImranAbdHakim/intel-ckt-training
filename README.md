@@ -1399,7 +1399,7 @@ setup time within a flop.
 ### Topic - Two Stage Operational Amplifier
 	
 <details>
-<summary>Theory</summary>
+ <summary>Theory</summary>
 
 1. Voltage follower  
 ![image](https://user-images.githubusercontent.com/121994033/227255015-998c4f41-4cf1-49f9-9421-b43f4633a07c.png)    
