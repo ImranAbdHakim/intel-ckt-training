@@ -1238,14 +1238,107 @@ setup time within a flop.
  </details>
 	
 ## Day 12
-### Topic - Current mirror
+### Topic - GPIO Design
 
 <details>
  <summary>Theory</summary>
+	
+ <details>
+ <summary>Critical voltage</summary>
+  ![image](https://user-images.githubusercontent.com/121994033/227081881-7bab6f4e-4f48-4a10-9b33-18a7c8858d12.png)
+  * Interconnect which are wire, metal, poly will induce some noise from the parasitic capacitance.
+  * This noise may cause problem to the circuit because the input might not be at the real voltage level.
+  * Low-level input voltage (VIL): This is the maximum input voltage which is recognized as a logicLOW by the IO circuit
+  * High-level input voltage (VIH): The minimum input voltage which is recognized as a logic-HIGH by the IO circuit.
+  * Low-level output voltage (VOL): The maximum output voltage produced from the input that is based on the logic-LOW specification of the device.
+  * High-level output voltage (VOH): The minimum output voltage produced from the input that is based on the logic-HIGH specification of the device.
 
+  ![image](https://user-images.githubusercontent.com/121994033/227085693-eb4e81c2-dd06-4d33-8d9b-c457e14fedb4.png)
+  * NMH = VOH - VIH
+  * NHL = VIL - VOL
 	
+  ![image](https://user-images.githubusercontent.com/121994033/227086737-e9d59791-61c6-49ba-8df7-298fbecfb119.png)
+  * Noise margin is how much noise the circuit can tolerate.
+  * The ideal scenario is when NM = VDD/2
+  
+  ![image](https://user-images.githubusercontent.com/121994033/227089877-a8d6d526-2940-48cd-92c1-d82b3667409a.png)
+  * The practical case 
+  
+  ![image](https://user-images.githubusercontent.com/121994033/227090268-95cd5f0b-0a7f-42b3-ab8c-c890e1e6e947.png)
+
+  ![image](https://user-images.githubusercontent.com/121994033/227090477-8affec7a-ae09-402d-9507-586d12417e8e.png)
+  * When the PMOS is replaced to a resistor, the output will be VOL because current will always flow
+  * The VOH will be VDD almost everytime 
+ </details>
+
+ <details>
+ <summary>GPIO</summary>
+
+  ![image](https://user-images.githubusercontent.com/121994033/227092966-ef43b29c-0a45-4b4e-a739-87ff70540204.png)
+  ![image](https://user-images.githubusercontent.com/121994033/227094191-08f51baf-436a-404c-acf2-2ddffa1726dd.png)
+  ![image](https://user-images.githubusercontent.com/121994033/227094221-fae5c513-df3b-460b-8bd3-1784d1d317bd.png)
+  ![image](https://user-images.githubusercontent.com/121994033/227094296-ffba8a5e-be01-4dbc-bb53-bf3fb373b04e.png)
+  ![image](https://user-images.githubusercontent.com/121994033/227094353-44b3d7d8-9399-4f82-be2f-661495d34215.png)
+  ![image](https://user-images.githubusercontent.com/121994033/227094431-00e1e972-82e4-46a2-b2d0-aa06eddcc701.png)
+  ![image](https://user-images.githubusercontent.com/121994033/227094479-e33cdc64-0009-4814-90fb-b6fbb12a437f.png)
+  ![image](https://user-images.githubusercontent.com/121994033/227094518-3cc714ba-2c96-4172-989b-d423e08836ad.png)
+  ![image](https://user-images.githubusercontent.com/121994033/227094571-52733c75-2f1a-4fc6-8cd1-17c82bf99639.png)
+  ![image](https://user-images.githubusercontent.com/121994033/227094630-fc347f22-e5e3-4e1c-afc4-903e50afeaf8.png)
+
+
+ </details>
+ 
+ <details>
+ <summary>Transmitter (TX) Driver</summary>
+	 
+  ![image](https://user-images.githubusercontent.com/121994033/227094873-9a59bafb-b58f-45ce-940a-272f17d5ef66.png)
+  ![image](https://user-images.githubusercontent.com/121994033/227094914-2bf1999e-b233-4ba2-b556-f0185a11568b.png)
+  ![image](https://user-images.githubusercontent.com/121994033/227094960-99076a9b-7059-480a-b2ed-3b8cfa9a3d58.png)
+  ![image](https://user-images.githubusercontent.com/121994033/227095016-b7cc9365-94eb-48b7-8811-0b7039981a18.png)
+  ![image](https://user-images.githubusercontent.com/121994033/227095054-51d1dc13-a916-458f-a6d8-ea7b65ae8e89.png)
+  ![image](https://user-images.githubusercontent.com/121994033/227095259-dc81122b-3e8a-44d9-b404-db42e607bfb4.png)
+  ![image](https://user-images.githubusercontent.com/121994033/227095285-e20fdc20-1013-4b26-bff9-888dd7ac23be.png)
+
+ </details>
+</details>
 	
+## Day 13
+### Topic - Scmitt Trigger
+
+<details>
+ <summary>Theory</summary>
 	
+**What is Scmitt Trigger**  
+* The output of a Schmitt trigger changes state when a positive going input passes upper trigger point voltage (Vth) and when negative going input passes the lower   	trigger point voltage (Vtl).
+	
+**Application of Schmitt trigger circuit**  
+* Noise reduction  
+* Pulse width preserving  
+* Pulse stretching  
+* Conversion of continuous wave to square wave  
+* Relaxation Ocillator  
+
+![image](https://user-images.githubusercontent.com/121994033/227123275-028d4d2b-cbc4-4e19-9131-38abc0a2187b.png)
+ * In normal inverter, there might be noise from the input that is translated into the output because the noise already reach the Vth.  
+![image](https://user-images.githubusercontent.com/121994033/227125425-8d28301e-6055-4b8a-8763-85769a883c24.png)
+ * The Scmitt Trigger Input Output characteristic create a Hysteresis because the tripping point form 1 to 0 is not the same as 0 to 1.
+	
+![image](https://user-images.githubusercontent.com/121994033/227124049-933d8605-8cb7-49cf-b76c-9d885f6587ca.png) 
+ * Scmitt Trigger can reduce the noise because it change the trip point of a standard inverter.  
+ * When Vin=0 and Vo was 1. That means N2 has pulled its source terminal to logic high.   
+ * As Vin increases gradually and reaches the Vt of NMOSes, N0 turns on in saturation but N1 turns on in linear region (deep triode).  
+ * Which means it conducts almost no current. So you have to even further increase Vin so that N0 able to conduct enough current to have both N1 and N2 goes to          saturation.   
+ * By then, as N3 is a weak transistor, would be hardly conducting as output node voltage decreases. So basically, High to Low trip point is increased as compared to    what it is in normal CMOS inverter. 
+ * This is also similar when Vin goes from 1 to 0 for PMOS.
+
+ ![image](https://user-images.githubusercontent.com/121994033/227127728-0e916f59-41a1-4e23-9e05-d0db80f442d2.png)
+
+![image](https://user-images.githubusercontent.com/121994033/227130931-54932bce-bd30-4553-9d6d-aaf4276cdba9.png)
+
+![image](https://user-images.githubusercontent.com/121994033/227131002-89c13c45-1bfa-467d-af02-320557600d9b.png)
+
+
+
 </details>
 	
 ## Day 14
