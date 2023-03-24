@@ -1,13 +1,13 @@
-# Muhammad Imran - Intel CKT Training
+# intel-ckt-training
 
 ## Table of contents
-* [Day 1 - Fundamentals of VLSI Design and overview of Sand-to-Silicon ]
-* [Day 2 - Details of IC Manufacturing Process ]
-* [Day 3 - CMOS Fabrication Process in Deep Submicron and Ultra Deep Submicron Technology ]
-* [Day 4 - Metal-Oxide-Semiconductor Structure ]
-* [Day 5 - Metal-Oxide-Semiconductor FIELD EFFECT TRANSISTOR ]
-* [Day 6 - MOSFET Intrinsic Capacitances ]
-* [Day 7 - CMOS Inverter ]
++ **[Day 1 - Fundamentals of VLSI Design and overview of Sand-to-Silicon](https://github.com/ImranAbdHakim/intel-ckt-training#day-1)**
++ **[Day 2 - Details of IC Manufacturing Process](https://github.com/ImranAbdHakim/intel-ckt-training#day-2)**
++ **[Day 3 - CMOS Fabrication Process in Deep Submicron and Ultra Deep Submicron Technology](https://github.com/ImranAbdHakim/intel-ckt-training#day-3)**
++ **[Day 4 - Metal-Oxide-Semiconductor Structure](https://github.com/ImranAbdHakim/intel-ckt-training#day-4)**
++ **[Day 5 - Metal-Oxide-Semiconductor FIELD EFFECT TRANSISTOR](https://github.com/ImranAbdHakim/intel-ckt-training#day-5)**
++ **[Day 6 - MOSFET Intrinsic Capacitances](https://github.com/ImranAbdHakim/intel-ckt-training#day-6)**
++ **[Day 7 - CMOS Inverter](https://github.com/ImranAbdHakim/intel-ckt-training#day-7)**
 
 
 
