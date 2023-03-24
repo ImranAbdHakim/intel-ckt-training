@@ -8,7 +8,15 @@
 + **[Day 5 - Metal-Oxide-Semiconductor FIELD EFFECT TRANSISTOR](https://github.com/ImranAbdHakim/intel-ckt-training#day-5)**
 + **[Day 6 - MOSFET Intrinsic Capacitances](https://github.com/ImranAbdHakim/intel-ckt-training#day-6)**
 + **[Day 7 - CMOS Inverter](https://github.com/ImranAbdHakim/intel-ckt-training#day-7)**
-
++ **[Day 8 - MOSFET Parameter Extraction, Scaling, Short Channel Effects and PVT Variations](https://github.com/ImranAbdHakim/intel-ckt-training#day-8)**
++ **[Day 9 - Combinational Digital Logic Circuits](https://github.com/ImranAbdHakim/intel-ckt-training#day-9)**
++ **[Day 10 - Sequential Digital Logic Circuits](https://github.com/ImranAbdHakim/intel-ckt-training#day-10)**
++ **[Day 12 - GPIO Design](https://github.com/ImranAbdHakim/intel-ckt-training#day-12)**
++ **[Day 13 - Scmitt Trigger](https://github.com/ImranAbdHakim/intel-ckt-training#day-13)**
++ **[Day 14 - Current mirror](https://github.com/ImranAbdHakim/intel-ckt-training#day-14)**
++ **[Day 15 - Single Ended and Differential Amplifier](https://github.com/ImranAbdHakim/intel-ckt-training#day-15)**
++ **[Day 16 - Two Stage Operational Amplifier](https://github.com/ImranAbdHakim/intel-ckt-training#day-16)**
++ **[Day 17 - Folded Cascode Operational Amplifier](https://github.com/ImranAbdHakim/intel-ckt-training#day-17)**
 
 
 ## Day 1
