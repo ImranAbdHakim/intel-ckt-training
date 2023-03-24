@@ -1425,3 +1425,35 @@ setup time within a flop.
 
 
 </details>
+
+## Day 17
+### Topic - Folded Cascode Operational Amplifier
+
+<details>
+<summary>Theory</summary>
+	
+Two stage Op-Amp has limitations:
+* Insufficient gain
+* Limited stable bandwidth
+* Inability to control higher order poles
+* Poor power supply rejection ratio
+	
+Cascode configuration give increase of gain which can be done in three ways: 
+1. Additional gain stage
+	• Not attractive due to instability
+2. Increasing of trans conductance of 1st or 2nd stage
+	• Bias current increases with transconductance: not power efficient 
+3. Increase the output resistance of 1st or 2nd stage
+	• Bias current decreases with Rout: power efficient
+
+**First Stage Cascoding**
+
+![image](https://user-images.githubusercontent.com/121994033/227466736-051b0705-3d41-4ebf-a2c0-cd2b89b58b01.png)
+![image](https://user-images.githubusercontent.com/121994033/227468486-ba8b959f-5631-4504-bacd-530171150dbe.png)
+![image](https://user-images.githubusercontent.com/121994033/227468962-7309c624-c2f7-41fb-8eef-3d40a34475bd.png)
+![image](https://user-images.githubusercontent.com/121994033/227469051-764e1934-7e84-4324-80dd-5051c374128f.png)
+![image](https://user-images.githubusercontent.com/121994033/227469269-fc3a2f0d-c283-4fc4-a8c3-875ab2f4578d.png)
+![image](https://user-images.githubusercontent.com/121994033/227469395-3813c5ee-6e18-4e39-b458-fd9d6209100f.png)
+![image](https://user-images.githubusercontent.com/121994033/227469508-07273190-9be8-41ee-bce3-b2bde958c4ce.png)
+
+</details>
