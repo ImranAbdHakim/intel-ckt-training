@@ -1424,6 +1424,4 @@ setup time within a flop.
 ![image](https://user-images.githubusercontent.com/121994033/227257741-bdb8a06f-f0d6-4adc-8114-9710060ce7f1.png)
 
 
-
-
 </details>
