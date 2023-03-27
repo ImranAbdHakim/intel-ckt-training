@@ -1309,6 +1309,25 @@ setup time within a flop.
 
  </details>
 </details>
+
+<details>
+ <summary>Assignment</summary>
+ 
+### Assignment ###
+
+**Input setup**  
+![image](https://user-images.githubusercontent.com/121994033/227821222-a2bc435f-9d69-4e19-9a48-1f7386a62061.png)  
+**Circuit**  
+![image](https://user-images.githubusercontent.com/121994033/227821126-1085b433-2fc8-4097-80cf-b313e16bc059.png)  
+**Waveform**  
+![image](https://user-images.githubusercontent.com/121994033/227821053-68e0a29d-a9c7-49ed-a4de-b57bdb0025cc.png)  
+
+![image](https://user-images.githubusercontent.com/121994033/227822455-2a009832-ca4c-4952-80eb-03d89463f3fb.png)  
+* delay rise : 1.08ns  
+* delay fall : 0.9642ns  
+* average power : 1.627mW  
+
+</details>
 	
 ## Day 13
 ### Topic - Scmitt Trigger
