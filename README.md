@@ -1072,6 +1072,7 @@ short channel effect
 <details>
  <summary>Theory</summary>
  
+### Theory ###
  **Combinational Logic**
  
  * The output of the circuit is related to its current input signals by some Boolean expression
@@ -1160,6 +1161,7 @@ Complementary CMOS gates inherits all the nice properties of the basic CMOS inve
 <details>
  <summary>Theory</summary>
  
+### Theory ###
  * Sequential logic circuits retain past input values in addition to current input values, influencing their output. They possess memory and are categorized by    regenerative circuits, which can be classified as bistable, monostable, and astable circuits. Bistable circuits are the most commonly utilized and are responsible for creating latches, flip-flops, registers, and memory elements.
  ![image](https://user-images.githubusercontent.com/121994033/221726217-8e0b7d68-6d67-4ac2-815a-136b9d8e3ad9.png)
  
@@ -1248,6 +1250,7 @@ setup time within a flop.
 ## Day 12
 ### Topic - GPIO Design
 
+### Theory ###
 <details>
  <summary>Theory</summary>
 	
@@ -1332,6 +1335,7 @@ setup time within a flop.
 ## Day 13
 ### Topic - Scmitt Trigger
 
+### Theory ###
 <details>
  <summary>Theory</summary>
 	
@@ -1371,6 +1375,7 @@ setup time within a flop.
 ## Day 14
 ### Topic - Current mirror
 
+### Theory ###
 <details>
  <summary>Theory</summary>
 
@@ -1411,16 +1416,26 @@ setup time within a flop.
 <details>
  <summary>Theory</summary>
 	
+### Theory ###
+	
 ![image](https://user-images.githubusercontent.com/121994033/226657565-654566e2-6e06-411a-9d62-c0facf940150.png)  
 ![image](https://user-images.githubusercontent.com/121994033/226657697-714c4ea0-b457-4e9d-90e7-209834354636.png)  
 ![image](https://user-images.githubusercontent.com/121994033/226657855-c74e5e87-a56e-4f8f-8663-1f1ad7418428.png)  
 ![image](https://user-images.githubusercontent.com/121994033/226657997-0882f31a-3d3a-498a-990c-0b992455b95e.png)  
 ![image](https://user-images.githubusercontent.com/121994033/226658137-058be33d-a4e4-41c0-8ffd-395e09f45e82.png)
 ![image](https://user-images.githubusercontent.com/121994033/226658208-89da408a-9a12-44c5-bb47-16354deccb24.png)
-	
 </details>
+	
+<details>
+<summary>Assignment</summary>
+	
+### Assignment ###
+	
+![image](https://user-images.githubusercontent.com/121994033/228176018-6b2e37e7-3bfc-4a7a-9bc2-bcf89033f2f6.png)
+![image](https://user-images.githubusercontent.com/121994033/228176221-e7b243fb-216a-4005-9642-37ad3da10d3e.png)
+![image](https://user-images.githubusercontent.com/121994033/228176777-e271b71c-f138-4c91-b313-e224d5373470.png)
 
-
+</details>
 
 ## Day 16
 ### Topic - Two Stage Operational Amplifier
@@ -1428,6 +1443,7 @@ setup time within a flop.
 <details>
  <summary>Theory</summary>
 
+### Theory ###
 1. Voltage follower  
 ![image](https://user-images.githubusercontent.com/121994033/227255015-998c4f41-4cf1-49f9-9421-b43f4633a07c.png)    
 
@@ -1458,7 +1474,8 @@ setup time within a flop.
 
 <details>
 <summary>Theory</summary>
-	
+
+### Theory ###
 Two stage Op-Amp has limitations:
 * Insufficient gain
 * Limited stable bandwidth
