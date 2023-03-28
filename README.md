@@ -1250,10 +1250,10 @@ setup time within a flop.
 ## Day 12
 ### Topic - GPIO Design
 
-### Theory ###
 <details>
  <summary>Theory</summary>
-	
+ 
+### Theory ###
  <details>
  <summary>Critical voltage</summary>
   ![image](https://user-images.githubusercontent.com/121994033/227081881-7bab6f4e-4f48-4a10-9b33-18a7c8858d12.png)
