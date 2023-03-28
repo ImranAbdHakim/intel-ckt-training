@@ -1256,13 +1256,14 @@ setup time within a flop.
 ### Theory ###
  <details>
  <summary>Critical voltage</summary>
-  ![image](https://user-images.githubusercontent.com/121994033/227081881-7bab6f4e-4f48-4a10-9b33-18a7c8858d12.png)
-  * Interconnect which are wire, metal, poly will induce some noise from the parasitic capacitance.
-  * This noise may cause problem to the circuit because the input might not be at the real voltage level.
-  * Low-level input voltage (VIL): This is the maximum input voltage which is recognized as a logicLOW by the IO circuit
-  * High-level input voltage (VIH): The minimum input voltage which is recognized as a logic-HIGH by the IO circuit.
-  * Low-level output voltage (VOL): The maximum output voltage produced from the input that is based on the logic-LOW specification of the device.
-  * High-level output voltage (VOH): The minimum output voltage produced from the input that is based on the logic-HIGH specification of the device.
+ 
+  ![image](https://user-images.githubusercontent.com/121994033/227081881-7bab6f4e-4f48-4a10-9b33-18a7c8858d12.png)  
+  * Interconnect which are wire, metal, poly will induce some noise from the parasitic capacitance.  
+  * This noise may cause problem to the circuit because the input might not be at the real voltage level.  
+  * Low-level input voltage (VIL): This is the maximum input voltage which is recognized as a logicLOW by the IO circuit  
+  * High-level input voltage (VIH): The minimum input voltage which is recognized as a logic-HIGH by the IO circuit.  
+  * Low-level output voltage (VOL): The maximum output voltage produced from the input that is based on the logic-LOW specification of the device.  
+  * High-level output voltage (VOH): The minimum output voltage produced from the input that is based on the logic-HIGH specification of the device.  
 
   ![image](https://user-images.githubusercontent.com/121994033/227085693-eb4e81c2-dd06-4d33-8d9b-c457e14fedb4.png)
   * NMH = VOH - VIH
