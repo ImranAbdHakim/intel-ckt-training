@@ -1335,10 +1335,10 @@ setup time within a flop.
 ## Day 13
 ### Topic - Scmitt Trigger
 
-### Theory ###
 <details>
  <summary>Theory</summary>
-	
+ 
+### Theory ###
 **What is Scmitt Trigger**  
 * The output of a Schmitt trigger changes state when a positive going input passes upper trigger point voltage (Vth) and when negative going input passes the lower   	trigger point voltage (Vtl).
 	
@@ -1375,10 +1375,11 @@ setup time within a flop.
 ## Day 14
 ### Topic - Current mirror
 
-### Theory ###
+
 <details>
  <summary>Theory</summary>
-
+ 
+### Theory ###
 * Current mirror is a circuit which output to input current ratio is a constant
 ![image](https://user-images.githubusercontent.com/121994033/226502527-080eeb53-2070-423f-89cb-5e08ec423a9e.png)  
 
