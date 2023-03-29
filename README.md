@@ -1433,7 +1433,11 @@ setup time within a flop.
 	
 ### Assignment ###
 	
-![image](https://user-images.githubusercontent.com/121994033/228176018-6b2e37e7-3bfc-4a7a-9bc2-bcf89033f2f6.png)
+![image](https://user-images.githubusercontent.com/121994033/228176018-6b2e37e7-3bfc-4a7a-9bc2-bcf89033f2f6.png)  
+**Calculation**  
+![image](https://user-images.githubusercontent.com/121994033/228498190-9412559c-47de-4273-ad5f-5220b997ea60.png)  
+![image](https://user-images.githubusercontent.com/121994033/228498436-1bc6b0ba-cb59-4ed6-80cf-aeb000e0ab4a.png)  
+![image](https://user-images.githubusercontent.com/121994033/228499039-5256a35e-7d46-428c-82ca-6354762c64bf.png)  
 ![image](https://user-images.githubusercontent.com/121994033/228176221-e7b243fb-216a-4005-9642-37ad3da10d3e.png)
 ![image](https://user-images.githubusercontent.com/121994033/228176777-e271b71c-f138-4c91-b313-e224d5373470.png)
 
