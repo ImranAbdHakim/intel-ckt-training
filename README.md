@@ -1475,6 +1475,15 @@ setup time within a flop.
 
 </details>
 
+ <details>
+ <summary>Assignment</summary>
+ 
+### Assignment ###
+	
+  + **[Assignment-Two Stage Op-Amp](https://github.com/ImranAbdHakim/intel-ckt-training/blob/main/day16-assignment.pdf)**
+
+</details>
+
 ## Day 17
 ### Topic - Folded Cascode Operational Amplifier
 
