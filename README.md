@@ -1516,3 +1516,107 @@ Cascode configuration give increase of gain which can be done in three ways:
 ![image](https://user-images.githubusercontent.com/121994033/227469508-07273190-9be8-41ee-bce3-b2bde958c4ce.png)
 
 </details>
+
+## Day 18
+### Topic - Bandgap Voltage Reference
+
+<details>
+<summary>Theory</summary>
+
+### Theory ###
+	
+* The accuracy and performance of analog systems are significantly influenced by voltage references. 
+* The BGR is a type of voltage reference that maintains a constant voltage level despite variations in power supply, changes in temperature, and circuit loading. 
+* Its application is wide-ranging and can be utilized in analog, digital, mixed-mode, RF, and system-on-chip (SoC) systems.
+
+![image](https://user-images.githubusercontent.com/121994033/230023093-c58b5757-6964-40d1-b378-9b906c499574.png)
+
+**Applications of BGR**
+	
+* Low dropout regulators (LDO)
+* DC-to-DC buck converters
+* Analog-to-Digital Converter (ADC)
+* Digital-to-Analog Converter (DAC)
+	
+![image](https://user-images.githubusercontent.com/121994033/230023805-23a13d24-9c9c-4224-876c-5ed686bc2af3.png)  
+![image](https://user-images.githubusercontent.com/121994033/230023911-78fef0fc-e471-4c14-a411-430913bf56c0.png)
+	
+**BGR Principle**  
+* Voltage/current signals that change proportionally with respect to change in temperature.  
+![image](https://user-images.githubusercontent.com/121994033/230131477-f1899f36-54cc-4ba2-b4a0-51bbb22d366f.png)   
+* An ideal reference voltage/current signal exhibits no change with respect to a change in temperature.  
+![image](https://user-images.githubusercontent.com/121994033/230132046-a8780cef-da76-4214-80ca-20d6ed8666c2.png)
+	
+**BGR Types**  
+* Architecture wise  
+  * Using Self-biased current mirror  
+  * Using Operational-amplifier  
+* Application wise  
+  * Low-voltage BGR  
+  * Low-power BGR  
+  * High-PSRR and low-noise BGR  
+  * Curvature compensated BGR  
+
+**Self-Biased Current Mirror Based BGR**  
+* Advantages  
+  * Simplest topology  
+  * Easy to design  
+  * Always stable  
+* Limitations   
+  * Low power supply rejection ratio (PSRR)  
+  * Cacode design needed to reduce PSRR  
+  * Voltage head-room issue  
+  * Need start-up circuit  
+	
+* Components  
+  * CTAT voltage generation circuit  
+  * PTAT voltage generation circuit  
+  * Self-biased current mirror circuit  
+  * Reference branch circuit  
+  * Start-up circuit  
+	
+* CTAT Voltage Generation   
+![image](https://user-images.githubusercontent.com/121994033/230133897-1411d1da-3985-4f9f-acd3-e5dffac8eec5.png)  
+![image](https://user-images.githubusercontent.com/121994033/230134506-7297ad3a-0bd6-4841-b668-22a61d750cab.png)  
+![image](https://user-images.githubusercontent.com/121994033/230134605-4a1af61c-aefc-461f-a134-d3ce5b94c38c.png)
+
+* PTAT Voltage Generation   
+![image](https://user-images.githubusercontent.com/121994033/230135004-89003647-f985-4575-967f-3b6837173427.png)  
+![image](https://user-images.githubusercontent.com/121994033/230135099-185bd767-7c6f-4ee2-87b0-f3ab5d75fd8c.png)  
+![image](https://user-images.githubusercontent.com/121994033/230135167-219c73fb-60ce-40f2-85e0-5d34c6a7eeac.png)  
+	
+* Design of R1 Resistance  
+  * R1 completely depends upon the power consumption and silicon area budget.
+  * R1= Vt ln (N)/I
+  * Resistance decreases, so area decreases with the increase of circuit current.
+  * Resistance increases, so area increases with the decrease of circuit current.
+  * Also the resistance value depends on number of BJT used in the branch 2.
+  * I.e, for 10uA current with N=8, R1 calculated to be 5.4K Ohm
+
+**Self-bias Current Mirror Circuit**  
+![image](https://user-images.githubusercontent.com/121994033/230136908-5794c8f7-6986-4f88-8a5a-2ac1f8402911.png)
+![image](https://user-images.githubusercontent.com/121994033/230137163-30f62ac7-f8ab-422c-8f60-30d3c3fc9980.png)
+![image](https://user-images.githubusercontent.com/121994033/230137224-73f8dbfb-10fa-4365-9b6e-c0324c2218cc.png)
+
+**Reference Voltage Branch Circuit**  
+![image](https://user-images.githubusercontent.com/121994033/230137593-cf22b707-899a-434d-843c-d19f034e797d.png)  
+![image](https://user-images.githubusercontent.com/121994033/230137528-5bb63ddf-6fe8-4391-bd8c-55c9a71340ef.png)  
+
+**Start-up Circuit**  
+* Start-up Issue  
+  * If the channel length modulation is negligible, the current hardly depends on supply voltage.  
+  * The main issue in supply independent biasing is the existence of degenerate bias points.  
+  * There are two stable operating points  
+    * Iin = Iout = 0 A (undesired operating point)  
+    * desired operating points  
+  * Must keep the circuit out of the undesiredpoint when the supply is turned on.  
+  * Must not interfere with the circuit once itreaches the desired operating point   
+* Initially circuit current at zero  
+* Net2 follows VDD  
+* When net2 voltage, one Vt more than net6 voltage, current will flow through MP5 and net1 node up the voltage.  
+	
+**Complete BGR Circuit**
+	
+![image](https://user-images.githubusercontent.com/121994033/230138696-2dc88d54-9536-49bd-b53d-0608a78f2956.png)
+
+</details>
